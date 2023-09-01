@@ -1,0 +1,53 @@
+body {
+  background-color: #001c30;
+  padding: 30px;
+}
+.display-4 {
+  color: #64ccc5 !important;
+  font-family: serif;
+  text-align: center;
+}
+h4 {
+  margin: 5px;
+  color: white;
+  font-family: serif;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+  margin: 5px;
+  color: white;
+  font-family: sans-serif;
+}
+form {
+  width: 450px;
+}
+
+.connection {
+  color: rgb(235, 100, 213);
+  font-size: 20px;
+}
+/* Mobile Devices: 480px */
+@media (max-width: 480px) {
+  form {
+    width: 300px;
+    height: 400px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+}
+/* iPads and Tablets: 481px — 1200px */
+@media (min-width: 481px) and (max-width: 1200px) {
+  form {
+    width: 400px;
+    height: 400px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+}
